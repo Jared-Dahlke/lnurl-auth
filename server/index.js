@@ -16,7 +16,7 @@ app.use(
 
 
 const config = {
-	url: 'https://lnurl-auth-example.onrender.com:3001';
+	url: 'https://lnurl-auth-example.onrender.com:3001'
 }
 
 
