@@ -15,10 +15,10 @@ app.use(
 );
 
 
-
-if (!config.url) {
-	config.url = 'https://lnurl-auth-example.onrender.com:3001';
+const config = {
+	url: 'https://lnurl-auth-example.onrender.com:3001';
 }
+
 
 app.use(session({
 	secret: '12345',
