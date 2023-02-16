@@ -92,7 +92,7 @@ app.get('/logout',
 		next();
 	});
 
-const server = app.listen(config.port, config.host, function() {
+const server = app.listen(config.port, function() {
 	console.log('Server listening at ' + config.url);
 });
 
