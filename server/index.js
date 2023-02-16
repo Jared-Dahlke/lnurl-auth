@@ -14,14 +14,10 @@ app.use(
     })
 );
 
-const config = {
-	host: 'localhost',
-	port: 3001,
-	url: null,
-};
+
 
 if (!config.url) {
-	config.url = 'http://' + config.host + ':' + config.port;
+	config.url = 'https://lnurl-auth-example.onrender.com:3001';
 }
 
 app.use(session({
