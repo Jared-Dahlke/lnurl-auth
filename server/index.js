@@ -17,7 +17,7 @@ app.use(
 
 const config = {
 	port: 3001,
-	host:'https://lnurl-auth-example.onrender.com',
+	host:'lnurl-auth-example.onrender.com',
 	url: 'https://lnurl-auth-example.onrender.com:3001'
 }
 
